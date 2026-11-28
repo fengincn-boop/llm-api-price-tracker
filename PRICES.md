@@ -1,18 +1,18 @@
 # Daily LLM API Price & Arbitrage Tracker
 
 > Auto-synced daily at **08:30 HKT** from [LLMFare.com](https://llmfare.com/en/) open static feed (`/api/prices.json`).
-> Last updated: **2026-11-27** (USD/CNY: `6.675` · Tracked: **84** flagship / **480** total models)
+> Last updated: **2026-11-28** (USD/CNY: `6.675` · Tracked: **83** flagship / **480** total models)
 
 ## Largest Multi-Channel Price Spreads
 
 | Model | Vendor | Cheapest Gateway (In / Out per 1M) | Highest Channel (In / Out per 1M) | Spread |
 | :--- | :--- | :--- | :--- | :--- |
-| GLM-5.3 | Zhipu AI (GLM) | $0.0699 / $1.4 (OpenRouter) | $1.848 / $5.808 (AWS Bedrock) | **7.86x (Save 87%)** |
+| GLM-5.3 | Zhipu AI (GLM) | $0.0699 / $1.4 (OpenRouter) | $2.1 / $6.6 (Fireworks AI) | **8.93x (Save 89%)** |
+| DeepSeek V4.1 Flash | DeepSeek | $0.0507 / $0.2028 (OpenRouter) | $0.45 / $1.8 (Fireworks AI) | **8.88x (Save 89%)** |
 | DeepSeek V4 Flash | DeepSeek | $0.09 / $0.18 (OpenRouter) | $0.4483 / $1.345 (SiliconFlow (CN)) | **5.81x (Save 83%)** |
 | MiniMax-M3 | MiniMax | $0.23 / $0.96 (OpenRouter) | $0.72 / $2.88 (302.AI Gateway) | **3.06x (Save 67%)** |
-| DeepSeek V4 Flash Vision Exp | DeepSeek | $0.15 / $0.6 (DeepSeek Official) | $0.44 / $1.32 (OpenRouter) | **2.57x (Save 61%)** |
-| DeepSeek V4.1 Flash | DeepSeek | $0.14 / $0.42 (OpenRouter) | $0.3 / $1.2 (Together AI) | **2.45x (Save 59%)** |
-| MiniMax-M3.1-Flash | MiniMax | $0.075 / $0.3 (OpenRouter) | $0.18 / $0.72 (302.AI Gateway) | **2.4x (Save 58%)** |
+| DeepSeek V4.1 Flash 1017 | DeepSeek | $0.1497 / $0.5989 (Volcengine Ark (CN)) | $0.45 / $1.8 (Fireworks AI) | **3.01x (Save 67%)** |
+| DeepSeek V4 Flash Vision Exp | DeepSeek | $0.15 / $0.6 (DeepSeek Official) | $0.44 / $1.32 (DeepInfra) | **2.57x (Save 61%)** |
 
 ## Top 35 Models Snapshot (USD per 1M Tokens)
 
@@ -22,37 +22,37 @@
 | Gemini 4 Carbon | Google | $2 / $10 | $2 / $10 (Google AI Studio) | 1x | 97 |
 | Claude Fable 5.2 | Anthropic | $8 / $40 | $8 / $40 (Anthropic Official) | 1x | 98 |
 | Gemini 4 Argon | Google | $2 / $10 | $2 / $10 (Google AI Studio) | 1.44x | 94 |
-| GPT-6.2 Astra | OpenAI | $8 / $40 | $8 / $40 (OpenAI Official) | 1x | 98 |
-| GLM-5.3 | Zhipu AI (GLM) | $1.19516 / $4.18306 | $0.0699 / $1.4 (OpenRouter) | 7.86x | 90 |
-| Claude Opus 5.5 | Anthropic | $4 / $20 | $4 / $20 (Anthropic Official) | 1x | 97 |
 | Qwen4 Max | Alibaba Qwen | $1.497163 / $4.491489 | $1.413 / $4.24 (DeepInfra) | 1x | 93 |
-| Kimi K3.1 Pro | Moonshot AI (Kimi) | $1.9437 / $10.1671 | $0.2403 / $8.4023 (OpenRouter) | 2.31x | 93 |
+| GPT-6.2 Astra | OpenAI | $8 / $40 | $8 / $40 (OpenAI Official) | 1x | 98 |
+| GLM-5.3 | Zhipu AI (GLM) | $1.19516 / $4.18306 | $0.0699 / $1.4 (OpenRouter) | 8.93x | 90 |
+| Claude Opus 5.5 | Anthropic | $4 / $20 | $4 / $20 (Anthropic Official) | 1x | 97 |
+| Kimi K3.1 Pro | Moonshot AI (Kimi) | $1.9437 / $10.1671 | $0.2403 / $8.4023 (OpenRouter) | 2.4x | 93 |
 | Muse Spark 1.3 | Meta | $1.25 / $4.25 | $1.25 / $4.25 (Meta Official API) | 1x | 92 |
-| DeepSeek V4.1 Flash 1017 | DeepSeek | $0.15 / $0.6 | $0.1497 / $0.5989 (Volcengine Ark (CN)) | 2x | 92 |
+| DeepSeek V4.1 Flash 1017 | DeepSeek | $0.15 / $0.6 | $0.1497 / $0.5989 (Volcengine Ark (CN)) | 3.01x | 92 |
 | Claude Sonnet 5.5 | Anthropic | $2 / $10 | $2 / $10 (Anthropic Official) | 1x | 94 |
 | GPT-6.2 Sol | OpenAI | $2 / $10 | $2 / $10 (OpenAI Official) | 1x | 95 |
 | GPT-6.1 Sol | OpenAI | $2 / $10 | $2 / $10 (OpenAI Official) | 1x | 93 |
-| DeepSeek V4.1 Flash | DeepSeek | $0.29754 / $1.19015 | $0.14 / $0.42 (OpenRouter) | 2.45x | 92 |
-| Muse Wonder | Meta | $4 / $20 | $4 / $20 (Meta Official API) | 1x | 93 |
+| DeepSeek V4.1 Flash | DeepSeek | $0.29754 / $1.19015 | $0.0507 / $0.2028 (OpenRouter) | 8.88x | 92 |
 | GPT-6 Sol | OpenAI | $2 / $10 | $2 / $10 (OpenAI Official) | 1x | 93 |
 | Muse Ember | Meta | $0.1 / $0.5 | $0.1 / $0.5 (Meta Official API) | 1x | 89 |
+| Muse Wonder | Meta | $4 / $20 | $4 / $20 (Meta Official API) | 1x | 93 |
+| GPT-5.6 Sol | OpenAI | $4 / $20 | $4 / $20 (OpenAI Official) | 1.39x | 93 |
 | Qwen3.8 Max | Alibaba Qwen | $1.77744 / $5.33231 | $1.65 / $4.951 (DeepInfra) | 1.3x | 92 |
 | Gemini 3.8 Flash | Google | $0.75 / $3.75 | $0.75 / $3.75 (Google AI Studio) | 1x | 91 |
 | Gemini 3.7 Flash | Google | $0.75 / $3.75 | $0.75 / $3.75 (Google AI Studio) | 1x | 91 |
 | GLM-5.3-Flash | Zhipu AI (GLM) | $0.11952 / $0.41831 | $0.075 / $0.25 (302.AI Gateway) | 2x | 88 |
-| Step 5 Preview | StepFun | $1.04613 / $2.98895 | $1 / $2.7 (Tencent Cloud TokenHub) | 1x | 90 |
 | Grok 4.7 | xAI | $2 / $6 | $2 / $6 (xAI Official Console) | 1x | 91 |
+| Step 5 Preview | StepFun | $1.04613 / $2.98895 | $1 / $2.7 (Tencent Cloud TokenHub) | 1x | 90 |
 | Hy4 | Tencent Hunyuan | $0.834 / $2.501 | $0.417 / $1.2505 (OpenRouter) | 2x | 90 |
 | GLM-5.3-FlashX | Zhipu AI (GLM) | $0.29879 / $1.04577 | $0.2988 / $1.0458 (Zhipu BigModel (CN)) | 1.22x | 88 |
-| Kimi K3 | Moonshot AI (Kimi) | $2.9879 / $14.9395 | $0.192 / $16 (OpenRouter) | 1.77x | 87 |
+| Kimi K3 | Moonshot AI (Kimi) | $2.9879 / $14.9395 | $0.192 / $16 (OpenRouter) | 2.42x | 87 |
 | Claude Opus 5 | Anthropic | $5 / $25 | $5 / $25 (Anthropic Official) | 1x | 93 |
 | MiniMax-M3.1-Flash | MiniMax | $0.1494 / $0.5976 | $0.075 / $0.3 (OpenRouter) | 2.4x | 88 |
 | Hy4 flash | Tencent Hunyuan | $0.07 / $0.281 | $0.035 / $0.1405 (OpenRouter) | 2x | 87 |
+| Qwen3.8 Flash | Alibaba Qwen | $0.11875 / $0.40073 | $0.113 / $0.382 (DeepInfra) | 1.28x | 87 |
 | Claude Fable 5.1 | Anthropic | $10 / $50 | $10 / $50 (Anthropic Official) | 1x | 93 |
 | Claude Fable 5 | Anthropic | $10 / $50 | $10 / $50 (Anthropic Official) | 1x | 93 |
-| Qwen3.8 Flash | Alibaba Qwen | $0.11875 / $0.40073 | $0.113 / $0.382 (DeepInfra) | 1.28x | 87 |
 | Grok 4.5 | xAI | $2 / $6 | $2 / $6 (xAI Official Console) | 1x | 91 |
-| Muse Spark 1.1 | Meta | $1.25 / $4.25 | $1.25 / $4.25 (Meta Official API) | 1x | 84 |
 
 ---
 Explore interactive F.A.R.E. Pareto charts, subscription vs. API break-even calculators, and full 480+ model search at **[llmfare.com](https://llmfare.com/en/)** ([中文版](https://llmfare.com/)).
